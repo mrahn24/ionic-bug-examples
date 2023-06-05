@@ -1,0 +1,7 @@
+{
+  "name": "RefresherScrollBroken",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
