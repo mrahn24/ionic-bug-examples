@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { RefresherCustomEvent } from '@ionic/angular';
 
 @Component({
   selector: 'app-home',
@@ -9,4 +10,9 @@ export class HomePage {
 
   constructor() {}
 
+  handleRefresh(event: any) {
+    setTimeout(() => {
+      event.target.complete();
+    }, 2000);
+  }
 }
